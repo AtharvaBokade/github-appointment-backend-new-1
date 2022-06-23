@@ -5,7 +5,7 @@ const mongoose = require("mongoose");
 app.use(express.json());
 app.use(cors());
 const dataModel = require("./models/UserData");
-const adjustschema = require("./models/Adjust");
+
 const dotenv=require('dotenv');
 dotenv.config();
 const port = process.env.PORT || 6000
